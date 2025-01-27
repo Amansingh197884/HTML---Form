@@ -7,17 +7,17 @@ body {
 }
 
 .main {
-    /* background-color: hwb(0 100% 0%); */
+    background-color: hwb(0 100% 0%);
     width: 440px;
     height: 537px;
-    /* color: white; */
+    color: white;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 28%;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 5px 20px 50px #000;
-background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNx5mmqjre1MBwKO3QqYQXem0XAgJ5wR7Hg&s;
+
 }
 
 #chk {
@@ -36,7 +36,7 @@ label {
     font-size: 2.3em;
     /* justify-content: center; */
     display: flex;
-    margin: 60px;or
+    margin: 60px;
     font-weight: bold;
     cursor: pointer;
     transition: .5s ease-in-out;
@@ -46,7 +46,7 @@ label {
 input {
     width: 60%;
     height: 20px;
-    background: rgba(255, 166, 0, 0.724);
+    background: white;
     justify-content: center;
     display: flex;
     margin: 20px auto;
@@ -70,7 +70,7 @@ button {
     border-radius: 5px;
     transition: .2s ease-in;
     cursor: pointer;
-    /* background-color: violet; */
+    background-color: violet;
 }
 
 button:hover {
@@ -79,7 +79,7 @@ button:hover {
 
 .login {
     height: 460px;
-    background-color: orange ;
+    background: violet;
     /* border-radius: 40% / 10%; */
     transform: translateY(-180px);
     transition: .8s ease-in-out;
